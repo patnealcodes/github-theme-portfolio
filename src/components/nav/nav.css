@@ -1,0 +1,20 @@
+.nav {
+  @apply flex gap-4 border-b border-zinc-800 pb-2 pt-6;
+}
+
+.nav-sidebar-spacer {
+  @apply w-64 h-4;
+}
+
+.nav-item {
+  @apply items-center cursor-pointer flex px-2 py-1 relative rounded-md transition-colors;
+}
+.nav-item:hover {
+  @apply bg-zinc-900;
+}
+.nav-item:after {
+  @apply absolute -bottom-2 content-[''] h-0.5 left-0 w-full;
+}
+.nav-item-active:after {
+  @apply bg-red-400;
+}
