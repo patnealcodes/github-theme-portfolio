@@ -15,8 +15,8 @@ export default function Sidebar() {
       <div className="sidebar-info-section flex flex-col">
         <img className="rounded-full" src={me} alt="Me! patnealcodes" />
         <div className="flex flex-col py-4">
-          <strong className="text-2xl">Patrick Neal</strong>
-          <span className="text-xl text-zinc-500">patnealcodes</span>
+          <strong className="text-2xl">Patrick Bisghuttis</strong>
+          More cool stuff
         </div>
         <p className="text-base">Hi. I'm Pat Neal. I codes.</p>
         <button className="bg-zinc-800 border border-zinc-700 my-4 px-2 py-1 rounded-md text-sm">Follow</button>
@@ -30,12 +30,6 @@ export default function Sidebar() {
       </div>
       <div className="sidebar-section sidebar-accomplishments">
         <strong className="block mb-3 text-base">Accomplishments</strong>
-        <div className="flex">
-          <img className="rounded-full w-16" src={gif} alt="Pronounces Gif Correctly" />
-          <img className="rounded-full w-16" src={vim} alt="Can Quit Vim" />
-          <img className="rounded-full w-16" src={ie6} alt="Developed For IE6" />
-          <img className="rounded-full w-16" src={projects} alt="Once Had To Switch Frameworks Three Times On One Project" />
-        </div>
       </div>
       <div className="sidebar-section sidebar-current-job">
         <strong className="block mb-3 text-base">Organizations</strong>

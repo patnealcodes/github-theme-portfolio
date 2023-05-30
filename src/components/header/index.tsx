@@ -6,6 +6,7 @@ export default function Header() {
         <div className="flex">
           <div className="flex-shrink-0">
             <img className="w-8 mr-4 " src={logo} alt="patneal.codes super nifty logo." />
+            Cool stuff
           </div>
         </div>
     </header>
